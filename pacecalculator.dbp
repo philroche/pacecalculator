@@ -1,0 +1,338 @@
+[DEBREATE-0.7.13]
+<<CTRL>>
+Package: Pace-Calculator
+Version: 0.0.1
+Maintainer: Philip Roche <phil@philroche.net>
+Architecture: amd64
+Priority: optional
+Description: Simple Pace Calculator
+ Add pace in Minutes per KM and distance in KM. Press submit to see the time it would take to complete that distance at that pace.
+
+<</CTRL>>
+<<FILES>>
+1
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/qt4_plugins -> qt4_plugins -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/PyQt4.QtCore.so* -> PyQt4.QtCore.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_codecs_hk.so* -> _codecs_hk.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/PyQt4.QtGui.so* -> PyQt4.QtGui.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_codecs_cn.so* -> _codecs_cn.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_codecs_iso2022.so* -> _codecs_iso2022.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_codecs_jp.so* -> _codecs_jp.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_codecs_kr.so* -> _codecs_kr.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_codecs_tw.so* -> _codecs_tw.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_hashlib.so* -> _hashlib.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/_multibytecodec.so* -> _multibytecodec.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/bz2.so* -> bz2.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libGLX.so.0* -> libGLX.so.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libGLdispatch.so.0* -> libGLdispatch.so.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libICE.so.6* -> libICE.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtDeclarative.so.4* -> libQtDeclarative.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQt3Support.so.4* -> libQt3Support.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtCore.so.4* -> libQtCore.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtGui.so.4* -> libQtGui.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtNetwork.so.4* -> libQtNetwork.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtOpenGL.so.4* -> libQtOpenGL.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtScript.so.4* -> libQtScript.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtSql.so.4* -> libQtSql.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtSvg.so.4* -> libQtSvg.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtXml.so.4* -> libQtXml.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libQtXmlPatterns.so.4* -> libQtXmlPatterns.so.4 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libSM.so.6* -> libSM.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libX11.so.6* -> libX11.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libXau.so.6* -> libXau.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libXdmcp.so.6* -> libXdmcp.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libXext.so.6* -> libXext.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libXi.so.6* -> libXi.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libXrender.so.1* -> libXrender.so.1 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libXt.so.6* -> libXt.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libaudio.so.2* -> libaudio.so.2 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libbz2.so.1.0* -> libbz2.so.1.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libcrypto.so.1.0.0* -> libcrypto.so.1.0.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libexpat.so.1* -> libexpat.so.1 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libffi.so.6* -> libffi.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libfontconfig.so.1* -> libfontconfig.so.1 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libfreetype.so.6* -> libfreetype.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libgcc_s.so.1* -> libgcc_s.so.1 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libglib-2.0.so.0* -> libglib-2.0.so.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libgobject-2.0.so.0* -> libgobject-2.0.so.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libjbig.so.0* -> libjbig.so.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libjpeg.so.8* -> libjpeg.so.8 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/liblcms2.so.2* -> liblcms2.so.2 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/liblzma.so.5* -> liblzma.so.5 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libmng.so.2* -> libmng.so.2 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libpcre.so.3* -> libpcre.so.3 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libpng12.so.0* -> libpng12.so.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libpython2.7.so.1.0* -> libpython2.7.so.1.0 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libreadline.so.6* -> libreadline.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libstdc++.so.6* -> libstdc++.so.6 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libtiff.so.5* -> libtiff.so.5 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libtinfo.so.5* -> libtinfo.so.5 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libuuid.so.1* -> libuuid.so.1 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/libz.so.1* -> libz.so.1 -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/pacecalculatorqt* -> pacecalculatorqt -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/readline.so* -> readline.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/resource.so* -> resource.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/dist/pacecalculatorqt/sip.so* -> sip.so -> /usr/bin/pacecalculator
+/home/philroche/Working/PycharmProjects/pacecalculator/pacecalculator.svg -> pacecalculator.svg -> /usr/bin/pacecalculator
+<</FILES>>
+<<SCRIPTS>>
+<<PREINST>>
+0
+<</PREINST>>
+<<POSTINST>>
+1
+#! /bin/bash -e
+
+ln -fs "/usr/bin/pacecalculator/pacecalculatorqt" "/usr/bin/pacecalculatorqt"
+
+ln -fs "/usr/bin/pacecalculator/libtinfo.so.5" "/usr/bin/libtinfo.so"
+
+ln -fs "/usr/bin/pacecalculator/libtiff.so.5" "/usr/bin/libtiff.so"
+
+ln -fs "/usr/bin/pacecalculator/libstdc++.so.6" "/usr/bin/libstdc++.so"
+
+ln -fs "/usr/bin/pacecalculator/libreadline.so.6" "/usr/bin/libreadline.so"
+
+ln -fs "/usr/bin/pacecalculator/libpng12.so.0" "/usr/bin/libpng12.so"
+
+ln -fs "/usr/bin/pacecalculator/libpcre.so.3" "/usr/bin/libpcre.so"
+
+ln -fs "/usr/bin/pacecalculator/libmng.so.2" "/usr/bin/libmng.so"
+
+ln -fs "/usr/bin/pacecalculator/liblzma.so.5" "/usr/bin/liblzma.so"
+
+ln -fs "/usr/bin/pacecalculator/liblcms2.so.2" "/usr/bin/liblcms2.so"
+
+ln -fs "/usr/bin/pacecalculator/libjpeg.so.8" "/usr/bin/libjpeg.so"
+
+ln -fs "/usr/bin/pacecalculator/libjbig.so.0" "/usr/bin/libjbig.so"
+
+ln -fs "/usr/bin/pacecalculator/libgobject-2.0.so.0" "/usr/bin/libgobject-2.0.so"
+
+ln -fs "/usr/bin/pacecalculator/libglib-2.0.so.0" "/usr/bin/libglib-2.0.so"
+
+ln -fs "/usr/bin/pacecalculator/libgcc_s.so.1" "/usr/bin/libgcc_s.so"
+
+ln -fs "/usr/bin/pacecalculator/libfreetype.so.6" "/usr/bin/libfreetype.so"
+
+ln -fs "/usr/bin/pacecalculator/libfontconfig.so.1" "/usr/bin/libfontconfig.so"
+
+ln -fs "/usr/bin/pacecalculator/libffi.so.6" "/usr/bin/libffi.so"
+
+ln -fs "/usr/bin/pacecalculator/libexpat.so.1" "/usr/bin/libexpat.so"
+
+ln -fs "/usr/bin/pacecalculator/libcrypto.so.1.0.0" "/usr/bin/libcrypto.so.1.0"
+
+ln -fs "/usr/bin/pacecalculator/libbz2.so.1.0" "/usr/bin/libbz2.so.1"
+
+ln -fs "/usr/bin/pacecalculator/libaudio.so.2" "/usr/bin/libaudio.so"
+
+ln -fs "/usr/bin/pacecalculator/libXt.so.6" "/usr/bin/libXt.so"
+
+ln -fs "/usr/bin/pacecalculator/libXrender.so.1" "/usr/bin/libXrender.so"
+
+ln -fs "/usr/bin/pacecalculator/libXi.so.6" "/usr/bin/libXi.so"
+
+ln -fs "/usr/bin/pacecalculator/libXext.so.6" "/usr/bin/libXext.so"
+
+ln -fs "/usr/bin/pacecalculator/libXdmcp.so.6" "/usr/bin/libXdmcp.so"
+
+ln -fs "/usr/bin/pacecalculator/libXau.so.6" "/usr/bin/libXau.so"
+
+ln -fs "/usr/bin/pacecalculator/libX11.so.6" "/usr/bin/libX11.so"
+
+ln -fs "/usr/bin/pacecalculator/libSM.so.6" "/usr/bin/libSM.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtXmlPatterns.so.4" "/usr/bin/libQtXmlPatterns.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtXml.so.4" "/usr/bin/libQtXml.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtSvg.so.4" "/usr/bin/libQtSvg.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtSql.so.4" "/usr/bin/libQtSql.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtScript.so.4" "/usr/bin/libQtScript.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtOpenGL.so.4" "/usr/bin/libQtOpenGL.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtNetwork.so.4" "/usr/bin/libQtNetwork.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtGui.so.4" "/usr/bin/libQtGui.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtCore.so.4" "/usr/bin/libQtCore.so"
+
+ln -fs "/usr/bin/pacecalculator/libQt3Support.so.4" "/usr/bin/libQt3Support.so"
+
+ln -fs "/usr/bin/pacecalculator/libQtDeclarative.so.4" "/usr/bin/libQtDeclarative.so"
+
+ln -fs "/usr/bin/pacecalculator/libICE.so.6" "/usr/bin/libICE.so"
+
+ln -fs "/usr/bin/pacecalculator/libGLdispatch.so.0" "/usr/bin/libGLdispatch.so"
+
+ln -fs "/usr/bin/pacecalculator/libGLX.so.0" "/usr/bin/libGLX.so"
+
+ln -fs "/usr/bin/pacecalculator/bz2.so" "/usr/bin/bz2"
+
+ln -fs "/usr/bin/pacecalculator/_multibytecodec.so" "/usr/bin/_multibytecodec"
+
+ln -fs "/usr/bin/pacecalculator/_hashlib.so" "/usr/bin/_hashlib"
+
+ln -fs "/usr/bin/pacecalculator/_codecs_tw.so" "/usr/bin/_codecs_tw"
+
+ln -fs "/usr/bin/pacecalculator/_codecs_kr.so" "/usr/bin/_codecs_kr"
+
+ln -fs "/usr/bin/pacecalculator/_codecs_jp.so" "/usr/bin/_codecs_jp"
+
+ln -fs "/usr/bin/pacecalculator/_codecs_iso2022.so" "/usr/bin/_codecs_iso2022"
+
+ln -fs "/usr/bin/pacecalculator/_codecs_cn.so" "/usr/bin/_codecs_cn"
+
+ln -fs "/usr/bin/pacecalculator/PyQt4.QtGui.so" "/usr/bin/PyQt4.QtGui"
+
+ln -fs "/usr/bin/pacecalculator/_codecs_hk.so" "/usr/bin/_codecs_hk"
+
+ln -fs "/usr/bin/pacecalculator/PyQt4.QtCore.so" "/usr/bin/PyQt4.QtCore"
+<</POSTINST>>
+<<PRERM>>
+1
+#! /bin/bash -e
+
+rm -f "/usr/bin/pacecalculatorqt"
+
+rm -f "/usr/bin/libtinfo.so"
+
+rm -f "/usr/bin/libtiff.so"
+
+rm -f "/usr/bin/libstdc++.so"
+
+rm -f "/usr/bin/libreadline.so"
+
+rm -f "/usr/bin/libpng12.so"
+
+rm -f "/usr/bin/libpcre.so"
+
+rm -f "/usr/bin/libmng.so"
+
+rm -f "/usr/bin/liblzma.so"
+
+rm -f "/usr/bin/liblcms2.so"
+
+rm -f "/usr/bin/libjpeg.so"
+
+rm -f "/usr/bin/libjbig.so"
+
+rm -f "/usr/bin/libgobject-2.0.so"
+
+rm -f "/usr/bin/libglib-2.0.so"
+
+rm -f "/usr/bin/libgcc_s.so"
+
+rm -f "/usr/bin/libfreetype.so"
+
+rm -f "/usr/bin/libfontconfig.so"
+
+rm -f "/usr/bin/libffi.so"
+
+rm -f "/usr/bin/libexpat.so"
+
+rm -f "/usr/bin/libcrypto.so.1.0"
+
+rm -f "/usr/bin/libbz2.so.1"
+
+rm -f "/usr/bin/libaudio.so"
+
+rm -f "/usr/bin/libXt.so"
+
+rm -f "/usr/bin/libXrender.so"
+
+rm -f "/usr/bin/libXi.so"
+
+rm -f "/usr/bin/libXext.so"
+
+rm -f "/usr/bin/libXdmcp.so"
+
+rm -f "/usr/bin/libXau.so"
+
+rm -f "/usr/bin/libX11.so"
+
+rm -f "/usr/bin/libSM.so"
+
+rm -f "/usr/bin/libQtXmlPatterns.so"
+
+rm -f "/usr/bin/libQtXml.so"
+
+rm -f "/usr/bin/libQtSvg.so"
+
+rm -f "/usr/bin/libQtSql.so"
+
+rm -f "/usr/bin/libQtScript.so"
+
+rm -f "/usr/bin/libQtOpenGL.so"
+
+rm -f "/usr/bin/libQtNetwork.so"
+
+rm -f "/usr/bin/libQtGui.so"
+
+rm -f "/usr/bin/libQtCore.so"
+
+rm -f "/usr/bin/libQt3Support.so"
+
+rm -f "/usr/bin/libQtDeclarative.so"
+
+rm -f "/usr/bin/libICE.so"
+
+rm -f "/usr/bin/libGLdispatch.so"
+
+rm -f "/usr/bin/libGLX.so"
+
+rm -f "/usr/bin/bz2"
+
+rm -f "/usr/bin/_multibytecodec"
+
+rm -f "/usr/bin/_hashlib"
+
+rm -f "/usr/bin/_codecs_tw"
+
+rm -f "/usr/bin/_codecs_kr"
+
+rm -f "/usr/bin/_codecs_jp"
+
+rm -f "/usr/bin/_codecs_iso2022"
+
+rm -f "/usr/bin/_codecs_cn"
+
+rm -f "/usr/bin/PyQt4.QtGui"
+
+rm -f "/usr/bin/_codecs_hk"
+
+rm -f "/usr/bin/PyQt4.QtCore"
+<</PRERM>>
+<<POSTRM>>
+0
+<</POSTRM>>
+<</SCRIPTS>>
+<<CHANGELOG>>
+<<DEST>>DEFAULT<</DEST>>
+
+<</CHANGELOG>>
+<<COPYRIGHT>>
+
+<</COPYRIGHT>>
+<<MENU>>
+1
+Name=Pace Calculator
+Version=1.0
+Exec=pacecalculatorqt
+Icon=/usr/bin/pacecalculator/pacecalculator.svg
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Utility;
+<</MENU>>
+<<BUILD>>
+1
+1
+1
+strip
+<</BUILD>>

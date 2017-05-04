@@ -1,0 +1,91 @@
+W: Pace-Calculator: hardening-no-relro usr/bin/pacecalculator/libGLX.so.0
+W: Pace-Calculator: hardening-no-relro usr/bin/pacecalculator/libGLdispatch.so.0
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libbz2.so.1.0: bzip2
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libcrypto.so.1.0.0: openssl
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libexpat.so.1: expat
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libfreetype.so.6: freetype
+W: Pace-Calculator: hardening-no-relro usr/bin/pacecalculator/libgcc_s.so.1
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libjpeg.so.8: libjpeg
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/liblcms2.so.2: lcms2
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libmng.so.2: libmng
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libpng12.so.0: libpng
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libtiff.so.5: tiff
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libtinfo.so.5: ncurses
+E: Pace-Calculator: embedded-library usr/bin/pacecalculator/libz.so.1: zlib
+W: Pace-Calculator: hardening-no-relro usr/bin/pacecalculator/pacecalculatorqt
+W: Pace-Calculator: missing-depends-line
+E: Pace-Calculator: changelog-file-missing-in-native-package
+E: Pace-Calculator: control-file-has-bad-permissions md5sums 0664 != 0644
+E: Pace-Calculator: no-copyright-file
+W: Pace-Calculator: extended-description-line-too-long
+E: Pace-Calculator: bad-package-name
+E: Pace-Calculator: package-not-lowercase
+W: Pace-Calculator: no-section-field
+W: Pace-Calculator: non-standard-dir-perm usr/ 0775 != 0755
+W: Pace-Calculator: non-standard-dir-perm usr/bin/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/accessible/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/qt4_plugins/accessible/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/codecs/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/qt4_plugins/codecs/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/graphicssystems/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/qt4_plugins/graphicssystems/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/iconengines/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/qt4_plugins/iconengines/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/imageformats/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/qt4_plugins/imageformats/ 0775 != 0755
+E: Pace-Calculator: subdir-in-usr-bin usr/bin/pacecalculator/qt4_plugins/inputmethods/
+W: Pace-Calculator: non-standard-dir-perm usr/bin/pacecalculator/qt4_plugins/inputmethods/ 0775 != 0755
+W: Pace-Calculator: non-standard-dir-perm usr/share/ 0775 != 0755
+W: Pace-Calculator: non-standard-dir-perm usr/share/applications/ 0775 != 0755
+W: Pace-Calculator: non-standard-file-perm usr/share/applications/Pace_Calculator.desktop 0664 != 0644
+E: Pace-Calculator: md5sums-lists-nonexistent-file usr/share/applications/Pace_Calculator.deskto
+W: Pace-Calculator: file-missing-in-md5sums usr/share/applications/Pace_Calculator.desktop
+W: Pace-Calculator: desktop-command-not-in-package usr/share/applications/Pace_Calculator.desktop pacecalculatorqt
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libGLX.so.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libGLdispatch.so.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libICE.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQt3Support.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtDeclarative.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtGui.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtNetwork.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtOpenGL.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtScript.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtSql.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtSvg.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtXml.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libQtXmlPatterns.so.4 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libSM.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libX11.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libXau.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libXdmcp.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libXext.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libXi.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libXrender.so.1 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libXt.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libaudio.so.2 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libbz2.so.1.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libcrypto.so.1.0.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libexpat.so.1 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libffi.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libfontconfig.so.1 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libfreetype.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libgcc_s.so.1 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libglib-2.0.so.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libgobject-2.0.so.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libjbig.so.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libjpeg.so.8 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/liblcms2.so.2 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/liblzma.so.5 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libmng.so.2 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libpcre.so.3 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libpng12.so.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libpython2.7.so.1.0 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libreadline.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libstdc++.so.6 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libtiff.so.5 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libtinfo.so.5 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libuuid.so.1 0755
+E: Pace-Calculator: shlib-with-executable-bit usr/bin/pacecalculator/libz.so.1 0755

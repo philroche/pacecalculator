@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>pacecalculator.svg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+/.idea/
+*.glade~
+*.pyc
+/dist/
+/build/
